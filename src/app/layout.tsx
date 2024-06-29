@@ -6,7 +6,7 @@ const karla = Karla({
   subsets:['latin'],
   variable:"--font-karla"
 });
-const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "HIAT",
@@ -14,13 +14,14 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
+  children,}: Readonly<{
+                  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={karla.className}>{children}</body>
+      <body className={karla.className}>
+        {children}
+      </body>
     </html>
   );
 }

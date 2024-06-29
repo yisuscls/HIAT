@@ -1,8 +1,8 @@
 import Image from "next/image";
 export default function SideBar() {
     return (
-        <aside className="sideBar shadow-gray-900/20 transition-300 ease-in-out w-60 rounded ">
-            <div className="divide-y divide-green-500 divide-y-4">
+        <aside className="sideBar shadow-gray-900/20 transition-300 ease-in-out w-60 rounded border border-green-400">
+            <div className=" divide-green-500 divide-y-4">
                 <div className="flex relative items-center py-5 px-3.5">
                     <Image className="w-14 mx-3.5 min-h-fit"
                         alt="logo uprm" src="/logo-uprm-white.png" width={60} height={60} />
