@@ -10,7 +10,7 @@ export default function PageWrapper({ children }: { children: ReactNode }) {
                 <div className='col-start-10 col-span-3  row-start-1 justify-normal space-x-2' >
                     <button className="bg-[#009c4f] hover:bg-green-400 text-white font-bold py-2 px-4 rounded-full">
                         <div className='flex relative items-center space-x-1'>
-                            <FaFileArrowUp className='icon-position' >
+                            <FaFileArrowUp  >
                             </FaFileArrowUp >
                             <p>Insert</p>
                         </div>
