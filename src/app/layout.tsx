@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Inter, Karla } from "next/font/google";
-import "./globals.css";
+import Head from 'next/head';
+import {  Karla } from "next/font/google";
+import "../css/globals.css";
 const karla = Karla({
   weight: ["200", "300", "400", "500","600", "700","800"],
   subsets:['latin'],
@@ -10,7 +11,10 @@ const karla = Karla({
 
 export const metadata: Metadata = {
   title: "HIAT",
-  description: "",
+  description: "Hyperspectral image Analysis ToolBox",
+  icons: {
+    icon: "/Tarzan.png",
+  },
 };
 
 export default function RootLayout({

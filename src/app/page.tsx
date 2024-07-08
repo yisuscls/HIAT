@@ -3,7 +3,7 @@ import { use, useState } from "react";
 import NavBar from "../components/header";
 import PageWrapper from "../components/pageWrapper";
 import SidebarWithLogo from "../components/sideBar";
-import { FaSleigh } from "react-icons/fa";
+
 export default function Home({children}: any) {
 const [viewBar, setviewBar] = useState(false);
 
